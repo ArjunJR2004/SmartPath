@@ -44,3 +44,8 @@
     color: #2563eb;
     font-weight: 600;
 }
+
+.logo-link{
+    text-decoration: none;
+    color: inherit;
+}

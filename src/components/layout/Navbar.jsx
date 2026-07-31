@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link , NavLink } from "react-router-dom";
 
 import { FaGraduationCap } from "react-icons/fa";
 import "./Navbar.css";
@@ -8,10 +8,12 @@ function Navbar() {
     return (
         <header className="navbar">
 
-            <div className="logo">
-                <FaGraduationCap className="logo-icon" />
-                <span>SmartPath</span>
-            </div>
+            <Link to="/" className="logo-link">
+                <div className="logo">
+                    <FaGraduationCap className="logo-icon" />
+                    <span>SmartPath</span>
+                </div>
+            </Link>
 
             <nav className="nav-links">
                 <ul>

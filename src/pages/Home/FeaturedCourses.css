@@ -1,0 +1,28 @@
+.featured-courses{
+
+    padding:80px;
+
+    background:#f9fafb;
+}
+
+.featured-courses h2{
+
+    text-align:center;
+
+    font-size:40px;
+
+    margin-bottom:50px;
+
+    color:#111827;
+}
+
+.course-grid{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+}

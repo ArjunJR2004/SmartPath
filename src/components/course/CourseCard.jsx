@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./CourseCard.css";
 
 function CourseCard({ course }) {
@@ -18,7 +19,12 @@ function CourseCard({ course }) {
 
                 <span>{course.price}</span>
 
-                <button>View Details</button>
+                <Link
+                    to={`/courses/${course.id}`}
+                    className="view-details-btn"
+                >
+                    View Details
+                </Link>
 
             </div>
 

@@ -7,6 +7,7 @@ import WishList from "../pages/WishList/WishList";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
+import CourseDetails from "../pages/CourseDetails/CourseDetails";
 
 function AppRoutes() {
     return (
@@ -14,6 +15,7 @@ function AppRoutes() {
             <Route element={<Layout />}>
                 <Route path="/" element={<Home />} />
                 <Route path="/courses" element={<Courses />} />
+                <Route path="/courses/:id" element={<CourseDetails />} />
                 <Route path="/wishlist" element={<WishList />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/login" element={<Login />} />
